@@ -8,14 +8,14 @@ import Work from './components/Work'
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <Home />
       <About />
       <Skills />
       <Work />
       <Contact/>
-    </div>
+    </>
   )
 }
 
